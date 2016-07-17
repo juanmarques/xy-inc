@@ -11,6 +11,6 @@ Configuração:
 
 3. Importe o projeto como Dynamic Web Project no Eclipse.
 
-4. Localize o products.properties e verifique as configurações jdbc
+4. Localize o products.properties e verifique as configurações jdbc.
 
-5. Execute o projeto.
+5. Execute o projeto usando o algum servidor WEB ( Foi usado o tomcat 8 ).
