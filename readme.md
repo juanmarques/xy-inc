@@ -5,7 +5,7 @@ consumindo os serviços usando jQuery.
 
 Configuração:
 
-1. Crie um database MySql e uma tabela com o nome products.
+1. Crie um database MySql
 
 2. Execute o arquivo product.sql para criar e popular a tabela.
 
