@@ -8,7 +8,7 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
-import br.jm.Helper.ConnectionHelper;
+import br.jme.Helper.ConnectionHelper;
 import br.jme.Model.Products;
 
 /**

@@ -1,4 +1,4 @@
-package br.jm.Helper;
+package br.jme.Helper;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
