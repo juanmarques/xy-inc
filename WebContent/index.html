@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>JM</title>
+<link rel="stylesheet" href="css/styles.css" />
+<link rel="stylesheet" href="css/materialize.css" />
+</head>
+
+<body>
+
+	<div class="header">
+		<input type="text" id="searchKey" />
+		<button class="btn waves-effect waves-light" id="btnSearch">Buscar</button>
+		<button class="btn waves-effect waves-light" id="btnAdd">Novo Produto</button>
+	</div>
+
+
+	<div class="leftArea">
+		<ul id="productsList"></ul>
+	</div>
+
+	<form id="productsForm">
+
+		<div class="mainArea">
+
+			<label>Id:</label> <input id="productseId" name="id" type="text" disabled /> 
+				<label>Nome:</label> <input type="text" id="name"name="name" required> 
+				<label>Preço:</label><input	type="text" id="price" name="price" />
+				 <label>Categoria:</label> <input type="text" id="category" name="category" />
+
+			<button class="btn waves-effect waves-light" id="btnSave">
+				<i class="material-icons right">Salvar</i>
+			</button>
+			<button class="btn" id="btnDelete">Deletar</button>
+
+		</div>
+
+		<div class="rightArea">
+
+			<img id="pic" height="300" /> <label>Descrição:</label>
+			<textarea id="description" name="description"></textarea>
+		</div>
+
+	</form>
+
+	<script src="js/jquery-1.7.1.min.js"></script>
+	<script src="js/main.js"></script>
+
+</body>
+</html>
